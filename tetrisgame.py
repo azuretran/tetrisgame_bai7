@@ -1,7 +1,6 @@
 import pygame
 import random
-
-# Thiết lập màu sắc
+#thiết lập nhiều màu sắc
 colors = [
     (0, 0, 0),
     (120, 37, 179),
@@ -84,7 +83,7 @@ class Tetris:
 
     # hàm kiểm tra xem các figure có tạo thành 1 đường thẳng không?
     #nếu tạo đường thẳng thì sẽ thành công => có điểm
-    
+
     def break_lines(self):
         lines = 0
         for i in range(1, self.height):
